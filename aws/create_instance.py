@@ -32,7 +32,7 @@ except:
 else:
     instance_name = sys.argv[2]
 
-#connection with client ec2
+#connection with client ec2 *-*
 client = boto3.client('ec2', region_name='us-west-2')
 
 #creating the instance with AMI base
